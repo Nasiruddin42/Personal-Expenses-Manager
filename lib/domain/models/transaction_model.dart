@@ -18,7 +18,7 @@ class Transaction extends HiveObject {
   String type;
 
   @HiveField(4)
-  DateTime createAt;
+  DateTime Date;
 
   Transaction(this.type, this.amount, this.createAt, this.notes, this.category);
 }
